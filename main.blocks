@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="cFvR)1HY^ak5h|F8B8)@">moneda</variable></variables><block type="device_button_event" id="klH.TP4w$L=q12huYSOX" x="125" y="28"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="S(c,T]tpaJo+Kd9h;uxn"><field name="LEDS">`
+        . . # # # 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="^f4O9p.laxe-c2KndTe/"><field name="LEDS">`
+        . . # . . 
+        . # . . . 
+        # . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="g~CM@x3eb}dB?JOrd3)R"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . # . 
+        . . . . #
+        `</field><next><block type="device_show_leds" id="~$m:G4]!Xwx$FXaUAC$I"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . # # #
+        `</field><next><block type="variables_set" id="Hg6(=(T;8aG(Y[wdj{*U"><field name="VAR" id="cFvR)1HY^ak5h|F8B8)@">moneda</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="nvm0=N-{A/$}/EIX9i-3"><value name="min"><shadow type="math_number" id="o]`?dk06-8NB(ZC%?k^("><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="1#41cFHA0W_scG8hnfVN"><field name="NUM">2</field></shadow></value></block></value><next><block type="controls_if" id="z_-r25J_FIG`KhP)ZW2]"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">FALSE</field></shadow><block type="logic_compare" id="A_9`$H`,W|vZy{_jOGCm"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="[Emz/Cm)to9[,F]gMI1!"><field name="VAR" id="cFvR)1HY^ak5h|F8B8)@">moneda</field></block></value><value name="B"><shadow type="math_number" id="~w~N8M7pWC^EHP?$MfuO"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="basic_show_icon" id="k#p-p=Hz{I3oC)qOSo*P"><field name="i">IconNames.Happy</field></block></statement><statement name="ELSE"><block type="basic_show_icon" id="[R3bqP?6FQitn7aaPg?$"><field name="i">IconNames.No</field></block></statement></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
